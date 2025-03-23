@@ -42,3 +42,6 @@
     color: var(--pure);
     transition: 0.5s;
 }
+.aroowOne{
+    opacity: 0;
+}
