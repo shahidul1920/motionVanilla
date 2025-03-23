@@ -1,21 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>vanila motion</title>
     <script src="https://cdn.tailwindcss.com/"></script>
     <script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/3e2f8f4813.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="bg-[var(--dark)] py-4">
+      <div class="container mx-auto">
+        <div class="flex justify-between items-center">
+          <div class="logo">
+            <h2 class="text-2xl font-bold text-white cursor-pointer">
+              Shahidul
+              <span class="text-[var(--primary)] font-normal">Shakil</span>
+            </h2>
+          </div>
+          <div class="menu hidden md:block">
+            <ul class="flex gap-2">
+              <li class="mx-2 text-white cursor-pointer">Home</li>
+              <li class="mx-2 text-white cursor-pointer">About</li>
+              <li class="mx-2 text-white cursor-pointer">Services</li>
+              <li class="mx-2 text-white cursor-pointer">Contact</li>
+            </ul>
+          </div>
+          <div class="socail">
+            <ul class="flex gap-2">
+              <li class="mx-2 text-white cursor-pointer size-[35px] rounded-full grid place-items-center bg-[var(--mid-dark)]">
+                <i class="fa-brands fa-facebook-f text-[var(--primary)] text-[20px]"></i>
+              </li>
+              <li class="mx-2 text-white cursor-pointer size-[35px] rounded-full grid place-items-center bg-[var(--mid-dark)]">
+                <i class="fa-brands fa-linkedin-in text-[var(--primary)] text-[20px]"></i>
+              </li>
+              <li class="mx-2 text-white cursor-pointer size-[35px] rounded-full grid place-items-center bg-[var(--mid-dark)]">
+                <i class="fa-brands fa-github-alt text-[var(--primary)] text-[20px]"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
 
-</head>
-<body>
-    <div id="myBox" class="w-[200px] h-[200px] bg-blue-500 text-white p-4">
-        <h1 class="text-4xl">Vanila Motion</h1>
-        <p class="text-lg">A simple and lightweight animation library</p>
-
-    </div>
-    <button id="myButton" class="p-4 bg-slate-900 text-white">click</button>
+    <section>
+        <div class="container mx-auto">
+            <div class="left">
+                <h4>HELLO I'M</h4>
+                <h1>Shahidul Shakil</h1>
+                <button class="btn bg-[var(--button)] p-4 rounded-full font-bold text-[var(--pure)]">View Portfolio</button>
+            </div>
+        </div>
+    </section>
 
     <script src="./motion.js"></script>
-</body>
+  </body>
 </html>

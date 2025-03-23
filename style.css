@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+:root{
+    --primary: #FF494A;
+    --pure:#FFFFFF;
+    --button:#e63d3d;
+    --twxt-white:#FFFFFF;
+    --text-black:#131111;
+    --dark: #060606;
+    --mid-dark: #141414;
+}
+
+.socail li{
+    position: relative;
+}
+.socail li::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    z-index: 1;
+    transition: 0.5s;
+    border-radius: 50%;
+    scale: 0;
+}
+
+.socail li:hover .socail li::after{
+    scale: 1;
+}
+.socail li i{
+    position: relative;
+    z-index: 2;
+    color: var(--pure);
+    transition: 0.5s;
+}
