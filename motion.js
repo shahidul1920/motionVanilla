@@ -11,7 +11,7 @@ const btn = document.querySelector(".btn");
 hover(btn, () => {
   animate(
     btn,
-    { scale:1.01 },
+    { scale:1.05 },
     500
   )
   animate(

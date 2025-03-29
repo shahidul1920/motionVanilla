@@ -10,7 +10,7 @@
     --primary: #FF494A;
     --pure:#FFFFFF;
     --button:#e63d3d;
-    --twxt-white:#FFFFFF;
+    --text-white:#FFFFFF;
     --text-black:#131111;
     --dark: #060606;
     --mid-dark: #141414;
@@ -33,10 +33,10 @@
     scale: 0;
 }
 
-.socail li:hover .socail li::after{
+.socail li:hover::after{
     scale: 1;
 }
-.socail li i{
+.socail li:hover i{
     position: relative;
     z-index: 2;
     color: var(--pure);
@@ -44,4 +44,11 @@
 }
 .aroowOne{
     opacity: 0;
+}
+
+.gradient{
+    background-image: linear-gradient(to bottom, transparent ,var(--dark));
+    background-size: 200%;
+    height: 200px;
+    width: 450px;
 }

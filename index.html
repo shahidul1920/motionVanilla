@@ -47,12 +47,37 @@
       </div>
     </header>
 
-    <section>
-        <div class="container mx-auto">
-            <div class="left">
-                <h4>HELLO I'M</h4>
-                <h1>Shahidul Shakil</h1>
-                <button class=" flex gap-2 items-center btn bg-[var(--button)] p-4 rounded-full font-bold text-[var(--pure)] relative"><i class="fa-solid fa-arrow-right aroowOne"></i> <p>View Portfolio</p> <i class="fa-solid fa-arrow-right aroowTwo"></i></button>
+    <section class="hero min-h-[90vh] bg-[var(--dark)] text-[var(--text-white)]">
+        <div class="container h-[90vh] mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 py-16">
+            <div class="h-full left flex flex-col justify-center">
+                <h4 class="text-lg font-bold text-[var(--text-white)]">HELLO I'M</h4>
+                <h1 class="my-4 text-4xl font-bold text-[var(--text-white)]">Shahidul Shakil</h1>
+                <button class="max-w-[185px] flex gap-2 items-center btn bg-[var(--button)] p-4 rounded-full font-bold text-[var(--pure)] relative"><i class="fa-solid fa-arrow-right aroowOne"></i> <p>View Portfolio</p> <i class="fa-solid fa-arrow-right aroowTwo"></i></button>
+            </div>
+            <div class="middle h-2.8/3 flex flex-col items-center justify-center relative">
+                <img src="./imgs/banner-user-image-two.png" alt="hero" class="max-w-[550px] absolute object-cover bottom-0 z-10">
+                <img src="./imgs/banner-user-image-two-red-bg.png" class="max-w-[450px] absolute bottom-0 z-9" alt="">
+                <div class="gradient absolute bottom-0 z-20"></div>
+                <h1 class="text-4xl font-bold absolute z-7">Web Designer</h1>
+                <h1 class="text-4xl font-bold absolute z-20">Frontend Developer</h1>
+
+            </div>
+            <div class="right">
+                <h4>About Me</h4>
+                <p>I'm a seasoned front-end dev and graphics designer with 4 years of experience. Using React.js, Figma, and Node.js, I create stunning UIs and robust front-end solutions. I'm also skilled in Photoshop and Illustrator for graphics needs.</p>
+                <div class="socail">
+                    <ul class="flex gap-2">
+                      <li class="mx-2 text-white cursor-pointer size-[40px] rounded-full grid place-items-center bg-[var(--mid-dark)]">
+                        <i class="fa-brands fa-facebook-f text-[var(--primary)] text-[20px]"></i>
+                      </li>
+                      <li class="mx-2 text-white cursor-pointer size-[40px] rounded-full grid place-items-center bg-[var(--mid-dark)]">
+                        <i class="fa-brands fa-linkedin-in text-[var(--primary)] text-[20px]"></i>
+                      </li>
+                      <li class="mx-2 text-white cursor-pointer size-[40px] rounded-full grid place-items-center bg-[var(--mid-dark)]">
+                        <i class="fa-brands fa-github-alt text-[var(--primary)] text-[20px]"></i>
+                      </li>
+                    </ul>
+                  </div>
             </div>
         </div>
     </section>
