@@ -49,6 +49,10 @@
 .gradient{
     background-image: linear-gradient(to bottom, transparent ,var(--dark));
     background-size: 200%;
-    height: 200px;
-    width: 450px;
+    height: 250px;
+    width: 460px;
+}
+.hdn{
+    -webkit-text-stroke: var(--text-white) 1px;
+    color: transparent;
 }
