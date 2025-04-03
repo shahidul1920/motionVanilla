@@ -45,6 +45,10 @@
 .aroowOne{
     opacity: 0;
 }
+.gradient-a{
+    background-image: linear-gradient(to top, transparent ,var(--primary));
+    height: 500px;
+}
 
 .gradient{
     background-image: linear-gradient(to bottom, transparent ,var(--dark));
