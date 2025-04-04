@@ -12,6 +12,7 @@
     --button:#e63d3d;
     --text-white:#FFFFFF;
     --text-black:#131111;
+    --text-mid-op:#f8f5f57e;
     --dark: #060606;
     --mid-dark: #141414;
 }
@@ -56,6 +57,9 @@
     background-size: 200%;
     height: 250px;
     width: 460px;
+}
+.gr-deg{
+    background-image: linear-gradient(318deg, var(--primary) -220% ,var(--dark) 80%);
 }
 .hdn{
     -webkit-text-stroke: var(--text-white) 1px;
