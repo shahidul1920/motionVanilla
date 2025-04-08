@@ -12,12 +12,12 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="bg-[var(--dark)]">
     <div class="bg-[var(--dark)] relative">
       <div
         class="gradient-a absolute top-0 z-1 right-0 left-0 opacity-[0.2]"
       ></div>
-      <header class="py-4 absolute top-0 z-10 right-0 left-0 px-4 md:py-0">
+      <header class="py-4 absolute top-0 z-10 right-0 left-0 px-4">
         <div class="container mx-auto">
           <div class="flex justify-between items-center">
             <div class="logo">
@@ -143,12 +143,12 @@
       </section>
     </div>
 
-    <div class="skillsSec bg-[var(--dark)] py-20 md:p-40 md:py-4">
+    <div class="skillsSec bg-[var(--dark)] py-20 md:p-40 md:py-4 mt-16">
       <section
         class="cardSection container grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mx-auto p-8 md:p-2 lg:p-0"
       >
         <div
-          class="card p-8 border-[1px] border-[var(--primary)] text-[var(--pure)] rounded-lg flex flex-col items-center justify-center gap-5"
+          class="card p-8 border-[1px] border-[var(--mid-prim)] text-[var(--pure)] rounded-lg flex flex-col items-center justify-center gap-5"
         >
           <div class="icn">
             <i
@@ -170,11 +170,11 @@
         </div>
 
         <div
-          class="card p-8 border-[1px] border-[var(--primary)] text-[var(--pure)] rounded-lg flex flex-col items-center justify-center gap-4"
+          class="card p-8 border-[1px] border-[var(--mid-prim)] text-[var(--pure)] rounded-lg flex flex-col items-center justify-center gap-4"
         >
           <div class="icn">
             <i
-              class="fa-solid fa-pen-ruler text-[var(--primary)] text-[40px]"
+              class="fa-brands fa-quinscape text-[var(--primary)] text-[40px]"
             ></i>
           </div>
           <div class="skillName">
@@ -192,11 +192,11 @@
         </div>
 
         <div
-          class="card p-8 border-[1px] border-[var(--primary)] text-[var(--pure)] rounded-lg flex flex-col items-center justify-center gap-4"
+          class="card p-8 border-[1px] border-[var(--mid-prim)] text-[var(--pure)] rounded-lg flex flex-col items-center justify-center gap-4"
         >
           <div class="icn">
             <i
-              class="fa-solid fa-pen-ruler text-[var(--primary)] text-[40px]"
+              class="fa-solid fa-shapes text-[var(--primary)] text-[40px]"
             ></i>
           </div>
           <div class="skillName">
@@ -213,11 +213,11 @@
         </div>
 
         <div
-          class="card p-8 border-[1px] border-[var(--primary)] text-[var(--pure)] rounded-lg flex flex-col items-center justify-center gap-4"
+          class="card p-8 border-[1px] border-[var(--mid-prim)] text-[var(--pure)] rounded-lg flex flex-col items-center justify-center gap-4"
         >
           <div class="icn">
             <i
-              class="fa-solid fa-pen-ruler text-[var(--primary)] text-[40px]"
+              class="fa-solid fa-circle-info text-[var(--primary)] text-[40px]"
             ></i>
           </div>
           <div class="skillName">
@@ -235,14 +235,14 @@
       </section>
     </div>
 
-    <div class="overView bg-[var(--dark)] py-20 md:p-40 md:py-4">
-      <section class="container grid grid-cols-1 lg:grid-cols-2 gap-10">
+    <div class="overView bg-[var(--dark)] px-8 py-20 md:p-40 md:py-4">
+      <section class="container grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 gap-10 mx-auto">
         <div class="left gr-deg rounded-lg grid place-items-center">
           <div class="exp flex gap-4 justify-center items-center p-16 ">
-            <h1 class="text-[140px] font-bold text-[var(--primary)]">
+            <h1 class="text-[100px] md:text-[140px] font-bold text-[var(--primary)]">
               4+
             </h1>
-            <h2 class="text-[var(--text-white)] text-5xl font-black">
+            <h2 class="text-[var(--text-white)] text-4xl md:text-5xl font-black">
               Years of <br /> Experience
             </h2>
           </div>
@@ -268,56 +268,67 @@
       </section>
     </div>
 
-    <div class="testimonials bg-[var(--dark)] py-20 md:p-40 md:py-4">
-      <section class="container mx-auto">
-        <h2 class="text-4xl font-bold text-[var(--pure)] text-center mb-10">
-          Testimonials
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
-          <div
-            class="testimonial-card p-8 bg-[var(--mid-dark)] text-[var(--pure)] rounded-lg flex flex-col items-center gap-4"
-          >
-            <div class="avatar w-20 h-20 rounded-full bg-[var(--primary)] grid place-items-center text-[var(--pure)] font-bold text-2xl">
-              A
-            </div>
-            <p class="text-center text-[var(--text-mid-op)]">
-              "Amazing work! The designs were stunning and the front-end
-              implementation was flawless. Highly recommend!"
-            </p>
-            <h4 class="font-bold text-lg">Alice Johnson</h4>
-            <p class="text-sm text-[var(--text-mid-op)]">CEO, TechCorp</p>
-          </div>
+    <!-- services -->
 
-          <div
-            class="testimonial-card p-8 bg-[var(--mid-dark)] text-[var(--pure)] rounded-lg flex flex-col items-center gap-4"
-          >
-            <div class="avatar w-20 h-20 rounded-full bg-[var(--primary)] grid place-items-center text-[var(--pure)] font-bold text-2xl">
-              B
-            </div>
-            <p class="text-center text-[var(--text-mid-op)]">
-              "The project was delivered on time and exceeded expectations. Great
-              attention to detail and creativity!"
-            </p>
-            <h4 class="font-bold text-lg">Brian Smith</h4>
-            <p class="text-sm text-[var(--text-mid-op)]">Manager, DesignPro</p>
-          </div>
+    <div class="services bg-[var(--dark)] my-20">
+      <section class="container mx-auto my-4 p-8 md:p-2 lg:p-0">
+        <div class="topText text-center grid gap-2">
+          <span class="text-[var(--primary)] font-bold text-xl">LATEST SERVICES</span>
+          <h2 class="text-4xl md:text-5xl font-bold text-[var(--text-white)] my-4">
+            Get The Best Services
+          </h2>
+          <p class="text-[var(--text-mid-op)] max-w-[550px] mx-auto">
+            I am a seasoned front-end developer and graphics designer with 4
+            years of experience. Using React.js, Figma, and Node.js, I create
+            stunning UIs and robust front-end solutions. I'm also skilled in
+            Photoshop and Illustrator for graphics needs.
+          </p>
+        </div>
+      </section>
 
-          <div
-            class="testimonial-card p-8 bg-[var(--mid-dark)] text-[var(--pure)] rounded-lg flex flex-col items-center gap-4"
-          >
-            <div class="avatar w-20 h-20 rounded-full bg-[var(--primary)] grid place-items-center text-[var(--pure)] font-bold text-2xl">
-              C
-            </div>
-            <p class="text-center text-[var(--text-mid-op)]">
-              "A true professional! The UI/UX design was intuitive and visually
-              appealing. Will definitely work together again."
+      <section class="container p-8 mx-auto grid gap-8 grid-cols-1 md:grid-col-1 xl:grid-cols-2">
+        <div class="text order-2 xl:order-1 flex flex-col gap-4 md:gap-8">
+          <div class="service p-4 bg-[var(--mid-dark)] rounded-lg flex flex-col gap-4">
+            <h4 class="text-2xl font-bold text-[var(--text-white)]">
+              1⭐ Web Design
+            </h4>
+            <p class="text-[var(--text-mid-op)]">
+              Design your template or any web page with Figma. Whather it is web or any dashboard, i'm here to help you to build your dream design.
             </p>
-            <h4 class="font-bold text-lg">Catherine Lee</h4>
-            <p class="text-sm text-[var(--text-mid-op)]">Founder, StartUp Inc.</p>
           </div>
+          <div class="service p-4 bg-[var(--mid-dark)] rounded-lg flex flex-col gap-4">
+            <h4 class="text-2xl font-bold text-[var(--text-white)]">
+              2⭐ Front End
+            </h4>
+            <p class="text-[var(--text-mid-op)]">
+              I can build your website with React JS or Next JS. I can also build your website with HTML, CSS and JavaScript.
+            </p>
+          </div>
+          <div class="service p-4 bg-[var(--mid-dark)] rounded-lg flex flex-col gap-4">
+            <h4 class="text-2xl font-bold text-[var(--text-white)]">
+              3⭐ Graphics Design
+            </h4>
+            <p class="text-[var(--text-mid-op)]">
+              I can design your logo, business card, flyer, poster, and any other graphics design with Photoshop and Illustrator.
+            </p>
+          </div>
+          <div class="service p-4 bg-[var(--mid-dark)] rounded-lg flex flex-col gap-4">
+            <h4 class="text-2xl font-bold text-[var(--text-white)]">
+              4⭐ WordPress Website
+            </h4>
+            <p class="text-[var(--text-mid-op)]">
+              Build your website with WordPress. I can build your website with WordPress and Elementor. I can also build your website with HTML, CSS and JavaScript.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="image order-1 xl:order-2 grid place-items-center">
+          <img class="h-full" src="https://themes-park.net/product/html/reeni/assets/images/services/latest-services-user-image-two.png" alt="">
         </div>
       </section>
     </div>
+    
 
     <script src="./motion.js"></script>
   </body>
